@@ -132,8 +132,6 @@ nav li a{
 .section-description{
     font-size: 18px;
     line-height: 30px;
-    max-width: 909px;
-    margin: 0 auto;
     padding: 20px;
 }
 
@@ -180,6 +178,7 @@ main section{
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     margin-top:50px;
+
 }
 
 .skill-title{
@@ -190,4 +189,56 @@ main section{
     font-size: 16px;
     line-height: 28px;
     
+}
+
+/* Resume Style */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+}
+
+.education-title, .experience-title{
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.education-subtitle, .experience-subtitle{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.education-description, .experience-description{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+.footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.footer input[type="text"], .footer input[type="email"], .footer textarea {
+    display: block;
+    padding: 18px 30px;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: none;
 }
